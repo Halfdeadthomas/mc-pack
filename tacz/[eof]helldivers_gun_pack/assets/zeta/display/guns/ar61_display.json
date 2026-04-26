@@ -1,0 +1,60 @@
+{
+  "model": "zeta:gun/ar61_geo",
+  "texture": "zeta:gun/uv/ar61",
+ 
+  "hud": "zeta:gun/hud/ar61",
+  "slot": "zeta:gun/slot/ar61",
+  "animation": "zeta:ar61",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "state_machine":"zeta:foxtail_kinetic_core_state_machine",
+  "state_machine_param": {
+    "ban_tactical_reload": 0,    //填1使武器无法在弹药没打空时换弹，一般是给单发筒子使用
+    "different_reload_time": 0,  //填1启用xmag与其接续换弹，如果填0就可以不填任何有关xmag的参数
+    "closed_bolt": 1             //武器的枪膛类型如果为closed_bolt则填写1，不是就是0
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [0.7, 0.7, 0.7],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1.25
+  },
+  "iron_zoom": 1.2,
+  "shell": {
+    "initial_velocity": [5, 2, -6],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "zeta:ar61/shoot",
+    "shoot_3p": "zeta:ar61/shoot_3p",
+    "draw": "tacz:m4a1/m4a1_draw",
+    "put_away": "tacz:m4a1/m4a1_put_away",
+    "dry_fire": "tacz:dry_fire",
+    "fire_select": "tacz:fire_select",
+    "head_hit": "tacz:head_hit",
+    "flesh_hit": "tacz:flesh_hit",
+    "kill": "tacz:kill",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+   "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+  },
+  "hotbar_show": {
+    "0": {
+    "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+    }
+  }
+}

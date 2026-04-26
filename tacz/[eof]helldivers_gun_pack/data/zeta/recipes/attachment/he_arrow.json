@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 16
+    },
+   {
+      "item": {
+        "item": "minecraft:tnt"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "zeta:he_arrow",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

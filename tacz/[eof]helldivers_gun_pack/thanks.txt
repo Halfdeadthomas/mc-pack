@@ -1,0 +1,20 @@
+感谢（排名不分先后）：
+Desert的镰刀材质
+HamsterBaron师傅的逻辑机
+RABasya师傅的动画
+mel.low部分动画
+AmengyLoad师傅的逻辑机与状态机大力支持&图标支持
+soret师傅的动画(r6)
+Koei师傅的模型与动作授权(sg225sp)
+SMEIS_AN的ps技术支持
+Dumrnheint师傅的动画&模型赞助（ar-2）
+
+Thanks:
+Desert
+mel.low's animation
+AmengyLoad's dual machines&icon support
+Hamster Baron's logic machines
+RABasya's animation
+Koei's model&animation authorize(sg225sp)
+soret's animation(r6)
+Dumrnheint's model&animation authorize(AR-2)

@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.s11.name",
+    "display": "zeta:s11_display",
+    "data": "zeta:s11_data",
+    "type": "sniper",
+    "item_type": "modern_kinetic",
+    "sort": 2004,
+    "tooltip":"zeta.gun.s11.desc"
+}

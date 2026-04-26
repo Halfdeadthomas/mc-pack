@@ -1,0 +1,7 @@
+{
+    "name": "zeta.attachment.scythe_aim",
+    "display": "zeta:scythe_aim_display",
+    "data": "zeta:scythe_aim_data",
+    "sort": 2002,
+    "type": "scope"
+  }

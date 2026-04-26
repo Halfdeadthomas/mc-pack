@@ -1,0 +1,122 @@
+{
+   "gunsmithlib_extension": {
+    "enable_overheat_feedback": true
+  },
+  "ammo": "zeta:las_16_ammo",
+  "ammo_amount": 2147483647,
+  "bolt": "open_bolt",
+  "rpm": 1000,
+  "bullet": {
+    "life": 0.75,
+    "bullet_amount": 1,
+    "damage": 4,
+    
+    "extra_damage": {
+      "armor_ignore": 0.2,
+      "head_shot_multiplier": 1.5,
+      "damage_adjust": [
+        {"distance": "infinite", "damage": 4}
+      ]
+    },
+    "speed": 3000,
+    "gravity": 0,
+    "knockback": 0,
+    "friction": 0,
+
+    "ignite": {
+      "entity": true,
+      "block": false
+    },
+    "ignite_entity_time": 5,
+    "pierce": 1
+  },
+"heat":  {
+    "max": 544,
+    "per_shot": 4,
+    "cooling_delay": 1000,
+    "over_heat_time": 1000
+  },
+  "reload": {
+    "type": "fuel",
+    "infinite": false,
+    "feed": {
+      "empty": 2.2,
+      "tactical": 2.8
+    },
+    "cooldown": {
+      "empty": 2.92,
+      "tactical": 3.63
+    }
+  },
+  "draw_time": 0.3,
+  "put_away_time": 0.43,
+  "aim_time": 0.17,
+  "sprint_time": 0.18,
+  "weight": 2.0,
+  "fire_mode": [
+    "auto"
+  ],
+   "recoil": {
+    "pitch": [
+       {"time": 0, "value": [0.0, 0.0]},
+       {"time": 0.3, "value": [0.0, 0.0]},
+       {"time": 0.5, "value": [0.0, 0.0]},
+       {"time": 0.65, "value": [0, 0]}
+     ],
+     "yaw": [
+       {"time": 0, "value": [0.0, 0.0]},
+      {"time": 0.3, "value": [0.0, 0.0]},
+       {"time": 0.5, "value": [0, 0]}
+     ]
+   },
+  "inaccuracy": {
+    "stand": 0.4,
+    "move": 0.3,
+    "sneak": 0.125,
+    "lie": 0,
+    "aim": 0
+  },
+ 
+  "melee": {
+   
+    "distance": 1,
+  
+    "cooldown": 0.6,
+   
+    "default": {
+    
+      "animation_type": "melee_stock",
+    
+      "distance": 1,
+    
+      "range_angle": 30,
+    
+      "damage": 5,
+      
+      "knockback": 0.5,
+    
+      "prep": 0.1
+    }
+  },
+  "script": "zeta:foxatl_heat",
+    "script_param": {
+      "empty_cooldown":2.92,
+      "empty_feed":2.8,
+      "reload_cooldown":3.63,
+      "reload_feed":2.85,
+      "cooldown":2,//基础散热速率
+      "maxMag1":2,"maxMag2":1,"maxMag3":1.5,//各级弹匣总热容量倍率
+      "coolingMag1":1,"coolingMag2":2,"coolingMag3":1.5//各级弹匣散热速率倍率
+    },
+  "builtin_attachments": {
+    "scope": "zeta:scythe_aim"
+  },
+  
+  "allow_attachment_types": [
+    "scope",
+    "laser",
+    "extended_mag"
+  ]
+ 
+
+}

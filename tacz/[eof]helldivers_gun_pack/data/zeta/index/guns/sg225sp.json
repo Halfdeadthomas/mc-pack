@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.sg225sp.name",
+    "display": "zeta:sg225sp_display",
+    "data": "zeta:sg225sp_data",
+    "type": "shotgun",
+    "item_type": "modern_kinetic",
+    "sort": 2006,
+    "tooltip":"zeta.gun.sg225sp.desc"
+}

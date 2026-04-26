@@ -1,0 +1,7 @@
+{
+    "name": "zeta.ammo.sg8f_ammo.name",
+    "display": "zeta:sg8f_ammo_display",
+     "tooltip":"zeta.ammo.sg8f_ammo.desc",
+     "sort": 2013,
+    "stack_size": 64
+  }

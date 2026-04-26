@@ -1,0 +1,21 @@
+{
+  "slot": "zeta:attachment/slot/scope_r6",
+  "model": "zeta:attachment/scope_r6_geo",
+  "texture": "zeta:attachment/uv/scope_r6",
+ 
+  "scope": true,
+  "sight": false,
+  "zoom": [
+    2,
+    4
+  ],
+ 
+  "views_fov": [
+    50.0,
+    30.0
+  ],
+  "sounds": {
+    "install": "tacz:attachments/scope_general_c",
+    "uninstall": "tacz:attachments/scope_general_c"
+  }
+}

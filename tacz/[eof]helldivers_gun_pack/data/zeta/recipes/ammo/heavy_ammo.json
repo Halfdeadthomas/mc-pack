@@ -1,0 +1,35 @@
+{
+  "materials": [
+    
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 50
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "zeta:heavy_ammo",
+    "count": 5
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

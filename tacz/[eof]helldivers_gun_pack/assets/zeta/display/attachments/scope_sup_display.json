@@ -1,0 +1,17 @@
+{
+  "slot": "zeta:attachment/slot/scope_sup",
+  "model": "zeta:attachment/scope_sup_geo",
+  "texture": "zeta:attachment/uv/scope_sup",
+  "zoom": [
+    2
+  ],
+  "scope": true,
+  "sight": false,
+  "views_fov": [
+    40.0
+  ],
+  "sounds": {
+    "install": "tacz:attachments/scope_general_d",
+    "uninstall": "tacz:attachments/scope_general_d"
+  }
+}

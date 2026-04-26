@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.ac7.name",
+    "display": "zeta:ac7_display",
+    "data": "zeta:ac7_data",
+    "type": "rpg",
+     "sort": 36000,
+    "item_type": "modern_kinetic",
+    "tooltip":"zeta.gun.ac7.desc"
+}

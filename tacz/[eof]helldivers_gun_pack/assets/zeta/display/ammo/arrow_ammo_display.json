@@ -1,0 +1,13 @@
+{
+  "slot": "zeta:ammo/slot/arrow_ammo",
+  "texture": "zeta:ammo/uv/arrow_ammo",
+  "model": "zeta:ammo/arrow_ammo_geo",
+   "entity": {
+    // 模型
+    "model": "zeta:ammo_entity/arrow_geo",
+    // 材质
+    "texture": "zeta:ammo_entity/arrow"
+  }
+ 
+}
+    

@@ -1,0 +1,9 @@
+{
+    "name": "zeta.attachment.ap_arrow",
+    "display": "zeta:ap_arrow_display",
+    "tooltip": "zeta.attachment.ap_arrow.desc",
+    "data": "zeta:ap_arrow_data",
+    "sort": 2006,
+    "type": "extended_mag"
+  
+  }

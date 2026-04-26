@@ -1,0 +1,10 @@
+
+  {
+    "name": "zeta.gun.las_16.name",
+    "display": "zeta:las_16_display",
+    "data": "zeta:las_16_data",
+    "type": "rifle",
+    "item_type": "modern_kinetic",
+    "sort": 2004,
+    "tooltip":"zeta.gun.las_16.desc"
+}

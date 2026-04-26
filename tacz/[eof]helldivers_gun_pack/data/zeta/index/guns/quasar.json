@@ -1,0 +1,10 @@
+
+  {
+    "name": "zeta.gun.quasar.name",
+    "display": "zeta:quasar_display",
+    "data": "zeta:quasar_data",
+    "type": "rpg",
+    "item_type": "modern_kinetic",
+    "sort": 36004,
+    "tooltip":"zeta.gun.quasar.desc"
+}

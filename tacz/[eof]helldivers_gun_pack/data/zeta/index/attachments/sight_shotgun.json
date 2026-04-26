@@ -1,0 +1,7 @@
+{
+    "name": "zeta.attachment.sight_shotgun",
+    "display": "zeta:sight_shotgun_display",
+    "data": "zeta:sight_shotgun_data",
+    "sort": 2006,
+    "type": "scope"
+  }

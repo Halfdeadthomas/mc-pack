@@ -1,0 +1,10 @@
+
+  {
+    "name": "zeta.gun.las13.name",
+    "display": "zeta:las13_display",
+    "data": "zeta:las13_data",
+    "type": "shotgun",
+    "item_type": "modern_kinetic",
+    "sort": 2004,
+    "tooltip":"zeta.gun.las13.desc"
+}

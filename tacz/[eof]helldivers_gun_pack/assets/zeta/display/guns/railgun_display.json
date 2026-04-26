@@ -1,0 +1,55 @@
+{
+  "model": "zeta:gun/railgun_geo",
+  "texture": "zeta:gun/uv/railgun",
+  "lod": {
+    "model": "zeta:gun/lod/railgun_lod",
+    "texture": "zeta:gun/lod/railgun_lod"
+  },
+  "hud": "zeta:gun/hud/railgun",
+  "slot": "zeta:gun/slot/railgun",
+  "animation": "zeta:railgun",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "state_machine": "zeta:railgun_state_machine",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1, 1, 1]
+    }
+  },
+  "shell": {
+    "initial_velocity": [-5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "muzzle_flash": {
+    "texture": "zeta:flash/railgun_flash",
+    "scale": 0.001
+  },
+  "iron_zoom": 2.0,
+  "zoom_model_fov": 45,
+ 
+  "sounds": {
+    "shoot_3p": "zeta:railgun/shoot_3p",
+    "inspect": "tacz:rpg7/rpg7_inspect",
+    "inspect_empty": "tacz:rpg7/rpg7_inspect_empty",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 50],
+    "scale": [0.5, 0.5, 0.5]
+  
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [1, 19, 4],
+    "rotate": [0, 0, 50],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

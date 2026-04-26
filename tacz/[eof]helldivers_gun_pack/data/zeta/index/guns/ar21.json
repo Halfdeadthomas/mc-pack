@@ -1,0 +1,9 @@
+{
+  "name": "zeta.gun.ar21.name",
+  "tooltip": "zeta.gun.ar21.desc",
+  "data": "zeta:ar21_data",
+  "display": "zeta:ar21_display",
+  "type": "rifle",
+  "item_type": "modern_kinetic",
+  "sort": 21001
+}

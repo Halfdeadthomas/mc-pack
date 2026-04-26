@@ -1,0 +1,9 @@
+{
+    "name": "zeta.attachment.stock_sh20",
+    "display": "zeta:stock_sh20_display",
+    "data": "zeta:stock_sh20_data",
+    "tooltip": "zeta.attachment.stock_sh20.desc",
+    "sort": 2003,
+    "type": "stock"
+  
+  }

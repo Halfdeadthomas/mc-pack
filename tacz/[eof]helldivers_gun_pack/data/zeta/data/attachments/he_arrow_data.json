@@ -1,0 +1,8 @@
+{
+    "weight": 0,
+   "extended_mag_level": 1,
+      "explosion": {
+  // 一但为 true，那么强行开启爆炸，默认为 false
+   "explode": true
+   }
+  }

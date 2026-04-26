@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.p92.name",
+    "display": "zeta:p92_display",
+    "data": "zeta:p92_data",
+    "type": "pistol",
+    "tooltip":"zeta.gun.p92.desc",
+    "item_type": "modern_kinetic",
+    "sort": 2001
+}

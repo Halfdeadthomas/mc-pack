@@ -1,0 +1,123 @@
+{
+ "ammo": "zeta:ar_ammo",
+  "ammo_amount": 40,
+  "bolt": "closed_bolt",
+  "rpm": 650,
+   "script":"zeta:ar21_logic",
+   "script_param": {
+	  "shotgun_spread":0.2,
+    "shotgun_max_ammo":0, //固定的下挂弹匣容量，换弹时长和本体一样，不包括膛内留弹
+    //下面是走过场，换弹时长改这里
+    "reload_feed":1.31,
+    "reload_cooldown":2.3333,
+    "empty_feed":1.47,
+    "empty_cooldown":2.8667
+  },
+  "heat":  { 
+    //这是执行双弹匣逻辑必要的非法操作
+    // 过热上限 填啥都行只要是正数
+    "max": 1000,
+    // 每发子弹过热值 必须是0
+    "per_shot": 0
+    //剩下的不用操作，因为不被获取
+  },
+  "bullet": {
+    "life": 0.8,
+    "bullet_amount": 1,
+    "damage": 15,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.2,
+      "head_shot_multiplier": 1.75,
+      "damage_adjust": [
+        {"distance": 35, "damage": 15},
+        {"distance": 85, "damage": 12},
+        {"distance": "infinite", "damage": 11}
+      ]
+    },
+    "speed": 900,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.03,
+    "ignite": false,
+    "pierce": 2,
+    "explosion": {
+      "explode": false,
+      "damage": 25,
+      "radius": 0.75,
+      "knockback": true,
+      "delay": 8
+    }
+  },
+  "reload": {
+    "type": "fuel",
+    "feed": {
+      "empty": 2.05,
+      "tactical": 1.2
+    },
+    "cooldown": {
+      "empty": 2.53,
+      "tactical": 2.03
+    }
+  },
+  "draw_time": 0.43,
+  "put_away_time": 0.43,
+  "aim_time": 0.21,
+  "sprint_time": 0.19,
+  "weight": 4.6,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.2,
+    "reload": -0.1
+  },
+  "crawl_recoil_multiplier": 0.5,
+  "fire_mode": [
+    "auto",
+    "burst"
+  ],
+  "fire_mode_adjust": {
+    "burst": {
+	    "damage": -11,
+	    "armor_ignore": 0.1,
+      "head_shot_multiplier": -0.3,
+      "aim_inaccuracy": -10,
+      "other_inaccuracy": -3
+    }
+  },
+  "burst_data": {
+    "bpm":750,
+    "continuous_shoot": false,
+    "count": 1,
+    "min_interval": 0.05
+  },
+ "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.5, 0.5]},
+      {"time": 0.25, "value": [0.5, 0.5]},
+      {"time": 0.45, "value": [-0.2, -0.2]},
+      {"time": 0.6, "value": [0, 0]},
+      {"time": 0.7, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.2, 0.15]},
+      {"time": 0.35, "value": [-0.2, 0.15]},
+      {"time": 0.5, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 3.5,
+    "move": 5,
+    "sneak": 2.5,
+    "lie": 1.5,
+    "aim": 0.075
+  },
+  "allow_attachment_types": [
+    "scope",
+    
+    "muzzle"
+    
+  ],
+ "builtin_attachments": {
+    "scope": "zeta:scythe_aim"
+  }
+}

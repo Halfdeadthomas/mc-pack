@@ -1,0 +1,78 @@
+{
+  "model": "zeta:gun/apw1_geo",
+  "texture": "zeta:gun/uv/apw1",
+  
+  "hud": "zeta:gun/hud/apw1",
+  "slot": "zeta:gun/slot/apw1",
+  "state_machine": "zeta:apw1_state_machine",
+  "show_crosshair": false,
+  "animation": "zeta:apw1",
+  "use_default_animation": "rifle",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.7, 0.7, 0.7],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 2
+  },
+   "ammo":{
+    "particle": {
+    // 名称，具体可选粒子可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E7%B2%92%E5%AD%90
+    "name": "mycelium",
+    // 生成的区域，默认为 0 0 0
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    // 速度，默认为0，必须至少为 0
+    "speed": 0.0,
+    // 粒子存在时间，单位 tick，默认为 20 tick
+    "life_time": 25,
+    // 粒子数量，当子弹速度过快时，可以增大此数量，能够填满子弹路径的空隙
+    "count": 75
+    }
+  },
+  // 机瞄的放大倍数，默认 1.2
+  "iron_zoom": 1.5,
+  // 机瞄模型缩放fov，默认70
+  "zoom_model_fov": 60,
+  "shell": {
+    "initial_velocity": [6.5, 1, -2.5],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [240, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "zeta:apw1/shoot",
+    "shoot_3p": "zeta:apw1/shoot_3p",
+    "draw": "tacz:m107/m107_draw",
+    "put_away": "tacz:m107/m107_put_away",
+    "melee_push": "tacz:melee_stock/melee_stock_02",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [0, 20, 4],
+    "rotate": [0, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [0, 20, 4],
+    "rotate": [0, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "controllable": {
+    "semi": {
+      "low_frequency": 1,
+      "high_frequency": 1,
+      "time": 200
+    }
+  }
+}

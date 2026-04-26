@@ -1,0 +1,8 @@
+{
+    "name": "zeta.attachment.grip_exp",
+    "display": "zeta:grip_exp_display",
+    "data": "zeta:grip_exp_data",
+    "sort": 2003,
+    "type": "grip"
+  
+  }

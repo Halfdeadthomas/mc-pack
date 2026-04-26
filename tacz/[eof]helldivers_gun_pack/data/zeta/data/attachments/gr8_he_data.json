@@ -1,0 +1,30 @@
+{
+    "weight": 0,
+   "extended_mag_level": 1,
+    "damage": {
+      "multiplier": 0.4
+    },
+    "armor_ignore": {
+      "multiplier": 0.6
+    },
+      "explosion": {
+  // 一但为 true，那么强行开启爆炸，默认为 false
+   "explode": true,
+   "radius": {
+    "addend": 9
+  // 里面填写参照其他新方法的四个参数
+   },
+   "damage": {
+    "multiplier": 3
+  // 里面填写参照其他新方法的四个参数
+   },
+  // 一但为 true，那么强行开启击退，默认为 false
+   "knockback": false,
+  // 一但为 true，那么强行开启破坏方块，默认为 false
+   "destroy_block": false,
+   "delay": {
+    "addend": 30
+  // 里面填写参照其他新方法的四个参数
+   }
+   }
+  }

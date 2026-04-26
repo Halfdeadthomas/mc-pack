@@ -1,0 +1,8 @@
+{
+    "name": "zeta.gun.apw1.name",
+    "display": "zeta:apw1_display",
+    "data": "zeta:apw1_data",
+     "type": "sniper",
+     "sort": 2000,
+    "tooltip":"zeta.gun.apw1.desc"
+}

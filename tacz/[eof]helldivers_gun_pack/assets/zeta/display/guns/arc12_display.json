@@ -1,0 +1,61 @@
+{
+  "model": "zeta:gun/arc12_geo",
+  "texture": "zeta:gun/uv/arc12",
+  "hud": "zeta:gun/hud/arc12",
+  "slot": "zeta:gun/slot/arc12",
+  "animation": "zeta:arc12",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "ammo_count_style": "percent",
+  "state_machine": "zeta:arc12_state_machine",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.65, 0.65, 0.65],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1, 1, 1]
+    }
+  },
+  "muzzle_flash": {
+      "texture": "zeta:flash/railgun_flash",
+      "scale": 2.0
+    },
+    "ammo": {
+    "particle": {
+      // 名称，具体可选粒子可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E7%B2%92%E5%AD%90
+      "name": "electric_spark",
+      // 生成的区域，默认为 0 0 0
+      "delta": [
+        1,
+        1,
+        1
+      ],
+      // 速度，默认为0，必须至少为 0
+      "speed": 1,
+      // 粒子存在时间，单位 tick，默认为 20 tick
+      "life_time": 2,
+      // 粒子数量，当子弹速度过快时，可以增大此数量，能够填满子弹路径的空隙
+      "count": 10
+    }
+  },
+  "sounds": {
+    "shoot": "zeta:arc12/shoot",
+    "shoot_3p": "zeta:arc12/shoot_3p",
+    "draw": "tacz:m4a1/m4a1_draw",
+    "put_away": "tacz:m4a1/m4a1_put_away",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_02"
+   
+    },
+  "offhand_show": {
+   "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+  },
+  "hotbar_show": {
+    "0": {
+     "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+    }
+  }
+}

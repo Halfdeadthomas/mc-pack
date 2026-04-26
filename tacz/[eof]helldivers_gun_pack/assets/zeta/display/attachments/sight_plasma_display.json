@@ -1,0 +1,15 @@
+{
+  "slot": "zeta:attachment/slot/sight_plasma",
+  "model": "zeta:attachment/sight_plasma_geo",
+  "texture": "zeta:attachment/uv/sight_plasma",
+  "zoom": [
+    1.5
+  ],
+  "scope": true,
+  "sight": false,
+  "fov": 60.0,
+ "sounds": {
+    "install": "tacz:attachments/scope_general_c",
+    "uninstall": "tacz:attachments/scope_general_c"
+  }
+}

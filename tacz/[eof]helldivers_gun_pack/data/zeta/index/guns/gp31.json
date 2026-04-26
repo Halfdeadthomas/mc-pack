@@ -1,0 +1,10 @@
+{
+    "name": "zeta.gun.gp31.name",
+    "display": "zeta:gp31_display",
+    "data": "zeta:gp31_data",
+    "type": "pistol",
+    "item_type": "modern_kinetic",
+    "sort": 2003,
+    "tooltip":"zeta.gun.gp31.desc"
+
+}

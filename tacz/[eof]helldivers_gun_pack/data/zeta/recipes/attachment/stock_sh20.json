@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:storage_blocks/iron"
+      },
+      "count": 6
+    },
+  {
+      "item": {
+        "item": "minecraft:tinted_glass"
+      },
+      "count": 8
+    },
+     {
+      "item": {
+        "tag": "forge:ingots/netherite"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "zeta:stock_sh20",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.cqc30.name",
+    "display": "zeta:cqc30_display",
+    "data": "zeta:cqc30_data",
+    "type": "pistol",
+    "item_type": "modern_kinetic",
+    "sort": 2005,
+    "tooltip":"zeta.gun.cqc30.desc"
+}

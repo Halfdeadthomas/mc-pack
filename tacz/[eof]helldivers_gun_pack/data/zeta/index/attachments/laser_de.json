@@ -1,0 +1,7 @@
+{
+    "name": "zeta.attachment.laser_de",
+    "display": "zeta:laser_de_display",
+    "data": "zeta:laser_de_data",
+    "sort": 2003,
+    "type": "laser"
+  }

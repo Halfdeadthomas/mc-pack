@@ -1,0 +1,31 @@
+{
+  "gunsmithlib_extension": {
+    "shield": {
+      // 格挡原版伤害的角范围
+      "block_vanilla_damage_angle": 70,
+      // 格挡子弹的角范围
+      "block_bullet_damage_angle": 100,
+      // 格挡条件：
+      // when_aiming      瞄准时能够格挡
+      // when_not_aiming  没有瞄准时能够格挡
+      // always           总是能够格挡，无论是否处于瞄准状态
+      "condition": "when_aiming",
+      // 换弹时是否停用格挡。优先级高于 condition
+      "disable_shield_when_reloading": false,
+      // 3.6.0版本新增
+      // 如果为true，那么该武器无法被斧头破盾（默认false）
+      "undisableable_by_axes": false
+    }
+  },
+  "weight": 4,
+  "ads": {
+    // 加数（多个配件的数值相加，作为第一个乘区）
+    "multiplier": 1.2
+  },
+  "recoil": {
+    "pitch": {
+      "multiplier": 0.7
+    }
+    
+  }
+}

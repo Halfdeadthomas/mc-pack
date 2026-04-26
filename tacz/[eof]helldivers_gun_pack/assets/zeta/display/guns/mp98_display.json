@@ -1,0 +1,80 @@
+{
+  "model": "zeta:gun/mp98_geo",
+  "texture": "zeta:gun/uv/mp98",
+ 
+  "hud": "zeta:gun/hud/mp98",
+  "slot": "zeta:gun/slot/mp98",
+  "animation": "zeta:mp98",
+  //"state_machine": "zeta:mp98_state_machine",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+     "state_machine":"zeta:foxtail_kinetic_core_state_machine",
+  "state_machine_param": {
+    "ban_tactical_reload": 0,    //填1使武器无法在弹药没打空时换弹，一般是给单发筒子使用
+    "different_reload_time": 0,  //填1启用xmag与其接续换弹，如果填0就可以不填任何有关xmag的参数
+    "closed_bolt": 1             //武器的枪膛类型如果为closed_bolt则填写1，不是就是0
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [0.65, 0.65, 0.65],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "text_show": {
+    // 作用的组名，该组的旋转点决定文本的位置和朝向
+    "las_r": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.5,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#fff900",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "MP98-KNIGHT"
+    },
+    "las_l": {
+      "scale": 0.5,
+      "align": "center",
+      "shadow": false,
+      "color": "#fff900",
+      "light": 15,
+      "text": "MP98-KNIGHT"
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.6
+  },
+"shell": {
+    "initial_velocity": [0, -5, 0],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "zeta:mp98/shoot",
+    "shoot_3p": "zeta:mp98/shoot_3p",
+   
+    "melee_push": "tacz:melee_stock/melee_stock_03",
+    "melee_stock": "tacz:melee_stock/melee_stock_01"
+  },
+  "offhand_show": {
+   "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+    "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

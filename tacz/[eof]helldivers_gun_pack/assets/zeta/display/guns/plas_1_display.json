@@ -1,0 +1,73 @@
+{
+    "model": "zeta:gun/plas_1_geo",
+    "texture": "zeta:gun/uv/plas_1",
+    "lod": {
+      "model": "zeta:gun/lod/plas_1_lod",
+      "texture": "zeta:gun/lod/plas_1_lod"
+    },
+    "hud": "zeta:gun/hud/plas_1",
+    "slot": "zeta:gun/slot/plas_1",
+    "animation": "zeta:plas_1",
+    "use_default_animation": "rifle",
+    "third_person_animation": "default",
+    "transform": {
+      "scale": {
+        "thirdperson": [0.65, 0.65, 0.65],
+        "ground": [0.6, 0.6, 0.6],
+        "fixed": [1.0, 1.0, 1.0]
+      }
+    },
+   
+    "muzzle_flash": {
+      "texture": "zeta:flash/railgun_flash",
+      "scale": 1
+    },
+
+
+    "ammo": {
+      // 曳光弹颜色，没有则为 #FFFFFF，没有此字段时，会调用 ammo 的相关字段
+      // 严格遵循 RGB 颜色代码
+      "tracer_color": "#01f1ff",
+      // 粒子效果，部分参数和原版指令完全一致，具体可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E5%91%BD%E4%BB%A4/particle
+      // 没有此字段时，会调用 ammo 的相关字段
+          "particle": {
+      //      // 名称，具体可选粒子可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E7%B2%92%E5%AD%90
+            "name": "soul_fire_flame",
+      //      // 生成的区域，默认为 0 0 0
+            "delta": [
+              0,
+              0,
+              0
+            ],
+      //      // 速度，默认为0，必须至少为 0
+            "speed": 0,
+      //      // 粒子存在时间，单位 tick，默认为 20 tick
+            "life_time":3,
+      //      // 粒子数量，当子弹速度过快时，可以增大此数量，能够填满子弹路径的空隙
+            "count": 10
+          }
+    },
+   
+     "sounds": {
+    "shoot": "zeta:plas_1/plas_1_shoot",
+    "shoot_3p": "zeta:plas_1/plas_1_shoot_3p",
+
+
+    "draw": "tacz:m4a1/m4a1_draw",
+    "put_away": "tacz:m4a1/m4a1_put_away",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_02"
+    },
+    "offhand_show": {
+      "pos": [-5, 13, -1],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+    },
+    "hotbar_show": {
+      "0": {
+        "pos": [-5, 13, -1],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+      }
+    }
+  }

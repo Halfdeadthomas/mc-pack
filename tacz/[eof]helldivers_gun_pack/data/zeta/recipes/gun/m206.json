@@ -1,0 +1,35 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 20
+    },
+
+    {
+      "item": {
+        "tag": "forge:ingots/netherite"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 256
+    }
+   
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:m206"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

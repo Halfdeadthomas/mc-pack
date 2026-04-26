@@ -1,0 +1,29 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 20
+    },
+    
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 128
+    }
+   
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:s11"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

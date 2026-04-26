@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.p4.name",
+    "display": "zeta:p4_display",
+    "data": "zeta:p4_data",
+    "type": "pistol",
+    "tooltip":"zeta.gun.p4.desc",
+    "item_type": "modern_kinetic",
+    "sort": 2000
+}

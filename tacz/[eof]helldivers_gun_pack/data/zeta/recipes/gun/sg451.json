@@ -1,0 +1,43 @@
+{
+  "materials": [
+     {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "zeta:sg8"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 4
+    },
+     {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:sg451"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

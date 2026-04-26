@@ -1,0 +1,8 @@
+{"type":"create:compacting",
+"heatRequirement": "heated",
+"ingredients":[{"tag":"forge:dusts/redstone"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:gunpowder"},
+{"tag": "minecraft:arrows"}
+],
+"results":[{"item":"tacz:ammo","count":1,"nbt":{"AmmoId":"zeta:arrow_ammo"}}]}

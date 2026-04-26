@@ -1,0 +1,47 @@
+{
+  "model": "zeta:gun/p4_geo",
+  "texture": "zeta:gun/uv/p4",
+  "hud": "zeta:gun/hud/p4",
+  "slot": "zeta:gun/slot/p4",
+  "animation": "zeta:p4",
+  "lod": {
+    "model": "zeta:gun/lod/p4_lod",
+    "texture": "zeta:gun/lod/p4_lod"
+  },
+  "use_default_animation": "pistol",
+  "player_animator_3rd": "tacz:pistol_default.player_animation",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.65, 0.65, 0.65],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1, 1, 1]
+    }
+  },
+  
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.7
+  },
+  "sounds": {
+    "reload_tactical": "zeta:p4/p4_reload",
+    "reload_empty": "zeta:p4/p4_reload",
+    "inspect":  "zeta:p4/p4_inspect",
+    "inspect_empty": "zeta:p4/p4_inspect",
+    "draw": "zeta:p4/p4_draw",
+    "shoot": "zeta:p4/p4_fire",
+    "shoot_3p": "zeta:p4/p4_fire_3p"
+   
+  },
+  "offhand_show": {
+    "pos": [4, 13, -2],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [4, 13, -2],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

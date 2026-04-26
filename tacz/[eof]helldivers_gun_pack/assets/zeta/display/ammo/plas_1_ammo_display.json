@@ -1,0 +1,8 @@
+{
+    "model": "zeta:ammo/plas_1_ammo_geo",
+    "texture": "zeta:ammo/uv/plas_1_ammo",
+    "slot": "zeta:ammo/slot/plas_1_ammo",
+    "tracer_color": "#01f1ff"
+    }
+
+  

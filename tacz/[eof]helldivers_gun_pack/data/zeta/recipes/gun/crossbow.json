@@ -1,0 +1,52 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 72
+    },
+     {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:string"
+      },
+      "count": 6
+    },
+   {
+      "item": {
+        "item": "minecraft:tnt"
+      },
+      "count": 5
+    },
+     {
+      "item": {
+        "tag": "forge:tools/crossbows"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "zeta:he_arrow"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:crossbow",
+    "attachments": {
+      "scope": "zeta:he_arrow"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

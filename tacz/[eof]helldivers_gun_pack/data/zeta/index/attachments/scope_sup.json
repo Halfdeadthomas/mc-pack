@@ -1,0 +1,7 @@
+{
+    "name": "zeta.attachment.scope_sup",
+    "display": "zeta:scope_sup_display",
+    "data": "zeta:scope_sup_data",
+    "sort": 2006,
+    "type": "scope"
+  }

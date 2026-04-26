@@ -1,0 +1,10 @@
+
+  {
+    "name": "zeta.gun.las98.name",
+    "display": "zeta:las98_display",
+    "data": "zeta:las98_data",
+    "type": "rpg",
+    "item_type": "modern_kinetic",
+    "sort": 36007,
+    "tooltip":"zeta.gun.las98.desc"
+}

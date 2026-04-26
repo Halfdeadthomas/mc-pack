@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 64
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:nether_stars"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:rl77"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

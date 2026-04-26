@@ -1,0 +1,13 @@
+name = "ServerSleep"
+filename = "serversleep-datapack.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d716afbca3a7994c71f660b821ac12fd9e06b8ca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4319020
+project-id = 776237

@@ -1,0 +1,54 @@
+{
+  "model": "zeta:gun/ar21_geo",
+  "texture": "zeta:gun/uv/ar21",
+ 
+  "hud": "zeta:gun/hud/ar21",
+  "slot": "zeta:gun/slot/ar21",
+  "animation": "zeta:ar21",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "state_machine": "zeta:ar21_state_machine",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.7, 0.7, 0.7],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1.25
+  },
+  "iron_zoom": 1.2,
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+  
+    "shoot_3p": "zeta:ar21/shoot_3p",
+
+    "dry_fire": "tacz:dry_fire",
+    "fire_select": "tacz:fire_select",
+    "head_hit": "tacz:head_hit",
+    "flesh_hit": "tacz:flesh_hit",
+    "kill": "tacz:kill",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+   "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+  },
+  "hotbar_show": {
+    "0": {
+    "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+   "gunsmithlib_extension": {
+     "fire_control": {
+      // 能够锁定目标的角范围，单位为角度（°）
+      "angular_range": 60
+      // （可选）指定最大锁定距离，如留空则使用武器的优势射程作为最大锁定距离。
+      // （可选）制导系统的扭矩，单位为°/tick。
+      // 若留空，则子弹将在发射时直接指向目标。适用于高速动能子弹。
+      // 填入的值代表弹头每tick将速度矢量转向目标方向的最大角度变化量。
+    },
+     "potion_effects": [
+      {
+        // 状态效果 id。
+        // 必填。
+        "effect_id": "minecraft:slowness",
+        // 状态效果持续时间，单位为 tick。
+        // 可选。默认为 1 秒。
+        "duration": 60,
+        // 状态效果等级，1 = 1级，2 = 2级。
+        // 可选，默认为 1
+        "level": 10,
+        // 如果为 true, 那么粒子效果会变淡，类似信标带来的状态效果的样子。
+        // 可选，默认为 false。
+        "is_ambient": false,
+        // 如果为 false, 那么会隐藏这个状态的粒子效果。
+        // 可选，默认为 true。
+        "visible": false,
+        // 如果为 false, 那么这个状态效果不会在客户端物品栏gui上显示。
+        // 可选，默认为 true。
+        "show_icon": true,
+        // 每次命中施加状态效果的概率。
+        // 可选，默认为 1。
+        "chance": 1,
+        // 状态效果的最大叠加等级，为 0 时则不叠加。
+        // 可选，默认为 0。
+        "max_stack_level": 10
+      },
+        {
+        // 状态效果 id。
+        // 必填。
+        "effect_id": "minecraft:weakness",
+        // 状态效果持续时间，单位为 tick。
+        // 可选。默认为 1 秒。
+        "duration": 60,
+        // 状态效果等级，1 = 1级，2 = 2级。
+        // 可选，默认为 1
+        "level": 10,
+        // 如果为 true, 那么粒子效果会变淡，类似信标带来的状态效果的样子。
+        // 可选，默认为 false。
+        "is_ambient": false,
+        // 如果为 false, 那么会隐藏这个状态的粒子效果。
+        // 可选，默认为 true。
+        "visible": false,
+        // 如果为 false, 那么这个状态效果不会在客户端物品栏gui上显示。
+        // 可选，默认为 true。
+        "show_icon": true,
+        // 每次命中施加状态效果的概率。
+        // 可选，默认为 1。
+        "chance": 1,
+        // 状态效果的最大叠加等级，为 0 时则不叠加。
+        // 可选，默认为 0。
+        "max_stack_level": 10
+      },
+        {
+        // 状态效果 id。
+        // 必填。
+        "effect_id": "minecraft:mining_fatigue",
+        // 状态效果持续时间，单位为 tick。
+        // 可选。默认为 1 秒。
+        "duration": 60,
+        // 状态效果等级，1 = 1级，2 = 2级。
+        // 可选，默认为 1
+        "level": 10,
+        // 如果为 true, 那么粒子效果会变淡，类似信标带来的状态效果的样子。
+        // 可选，默认为 false。
+        "is_ambient": false,
+        // 如果为 false, 那么会隐藏这个状态的粒子效果。
+        // 可选，默认为 true。
+        "visible": false,
+        // 如果为 false, 那么这个状态效果不会在客户端物品栏gui上显示。
+        // 可选，默认为 true。
+        "show_icon": true,
+        // 每次命中施加状态效果的概率。
+        // 可选，默认为 1。
+        "chance": 1,
+        // 状态效果的最大叠加等级，为 0 时则不叠加。
+        // 可选，默认为 0。
+        "max_stack_level": 10
+      }
+    ]
+  },
+  "ammo": "zeta:plas_1_ammo",
+  "rpm": 100,
+  "ammo_amount": 1,
+ 
+  "bolt": "manual_action",
+  "bullet": {
+    "life": 0.004,
+    "bullet_amount": 5,
+    "damage": 40,
+    "extra_damage": {
+      "armor_ignore": 0.4,
+      "head_shot_multiplier": 1.25,
+      "damage_adjust": [
+        {"distance": 20, "damage": 40}
+      ]
+    },
+    "speed": 400,
+    "gravity": 0,
+    "knockback": 0.5,
+    "friction": 0.01,
+    "ignite": false,
+    "pierce": 1
+    
+  },
+
+
+
+  "reload": {
+    "type": "magazine",
+    "infinite": true,
+    "feed": {
+      "empty": 0.001,
+      "tactical": 0.001
+    },
+    "cooldown": {
+      "empty": 0.001,
+      "tactical": 0.001
+    }
+  },
+
+  "draw_time": 0.77,
+  "put_away_time": 0.7,
+  "aim_time": 0.15,
+  "sprint_time": 0.15,
+  "bolt_action_time": 0.55,
+  "weight": 5.0,
+  "fire_mode": [
+    
+    "auto",
+    "semi"
+    
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.25, 0.25]},
+      {"time": 0.125, "value": [0.25, 0.25]},
+      {"time": 0.4, "value": [-0.25, -0.25]},
+      {"time": 0.55, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.5, 0.5]},
+      {"time": 0.1, "value": [-0.5, 0.5]},
+      {"time": 0.2, "value": [0.15, 0.15]},
+      {"time": 0.4, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 7.5,
+    "move": 10,
+    "sneak": 8.5,
+    "lie": 6.5,
+    "aim": 5
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    "cooldown": 0.5,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_stock",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 1,
+      // 刺刀范围角度
+      "range_angle": 30,
+      // 伤害值
+      "damage": 2,
+      // 击退效果
+      "knockback": 0.75,
+      // 前摇时长，单位：秒
+      "prep": 0.1
+    }
+  },
+  "script": "zeta:arc12_logic",
+ 
+ "builtin_attachments": {
+    "scope": "zeta:sight_shotgun"
+  },
+  "allow_attachment_types": [
+    "scope"
+  ]
+  }

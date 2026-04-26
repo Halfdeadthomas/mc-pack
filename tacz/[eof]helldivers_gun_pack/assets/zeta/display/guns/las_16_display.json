@@ -1,0 +1,64 @@
+{
+    "model": "zeta:gun/las_16_geo",
+    "texture": "zeta:gun/uv/las_16",
+    "lod": {
+  "model": "zeta:gun/lod/las_16_lod",
+  "texture": "zeta:gun/lod/las_16_lod"
+},
+    "hud": "zeta:gun/hud/las_16",
+    "slot": "zeta:gun/slot/las_16",
+    "animation": "zeta:las_16",
+    "use_default_animation": "rifle",
+    "third_person_animation": "default",
+    "player_animator_3rd": "tacz:rifle_default.player_animation",
+    "ammo_count_style": "percent",
+    "state_machine": "zeta:las_5_state_machine",
+    "transform": {
+      "scale": {
+        "thirdperson": [0.8, 0.8, 0.8],
+        "ground": [0.6, 0.6, 0.6],
+        "fixed": [1.2, 1.2, 1.2]
+      }
+    },
+
+    "ammo": {
+      // 曳光弹颜色，没有则为 #FFFFFF，没有此字段时，会调用 ammo 的相关字段
+      // 严格遵循 RGB 颜色代码
+  "tracer_color": "#ffe949"
+      // 粒子效果，部分参数和原版指令完全一致，具体可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E5%91%BD%E4%BB%A4/particle
+      // 没有此字段时，会调用 ammo 的相关字段
+         
+    },
+
+  
+
+
+
+    "muzzle_flash": {
+      "texture":"tacz:flash/common_muzzle_flash",
+      "scale": 1
+    },
+    "sounds": {
+      "shoot": "zeta:las_16/las_16_shoot",
+      "shoot_3p": "zeta:las_16/las_16_shoot_3p",
+     
+      "inspect": "zeta:las_16/las_16_inspect",
+      "inspect_empty": "zeta:las_16/las_16_inspect",
+      "draw": "tacz:m4a1/m4a1_draw",
+      "put_away": "tacz:m4a1/m4a1_put_away",
+      "melee_push": "tacz:melee_stock/melee_stock_01",
+      "melee_stock": "tacz:melee_stock/melee_stock_02"
+    },
+    "offhand_show": {
+      "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+    },
+    "hotbar_show": {
+      "0": {
+        "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+      }
+    }
+  }

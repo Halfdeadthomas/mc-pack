@@ -1,0 +1,59 @@
+{
+  "model": "zeta:gun/ac7_geo",
+  "texture": "zeta:gun/uv/ac7",
+  "lod": {
+    "model": "zeta:gun/lod/ac7_lod",
+    "texture": "zeta:gun/lod/ac7_lod"
+  },
+  "hud": "zeta:gun/hud/ac7",
+  "slot": "zeta:gun/slot/ac7",
+  "animation": "zeta:ac7",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 2
+  },
+  "shell": {
+    // 抛壳的初速度
+    "initial_velocity": [1, 5, 4],
+    // 抛壳随机变化的运动速度
+    "random_velocity": [0.25, 1, 1],
+    // 抛壳的加速度
+    "acceleration": [0.0, -10, 0.0],
+    // 抛壳的三轴角速度
+    "angular_velocity": [360, -1200, 360],
+    // 抛壳渲染存活时间，单位为秒
+    "living_time": 1.5
+  },
+  "sounds": {
+    "shoot": "zeta:ac7/ac7_shoot",
+    "shoot_3p": "zeta:ac7/ac7_shoot_3p",
+    "melee_push": "tacz:melee_stock/melee_stock_02",
+    "melee_stock": "tacz:melee_stock/melee_stock_03",
+    "inspect": "tacz:rpg7/rpg7_inspect",
+    "inspect_empty": "tacz:rpg7/rpg7_inspect_empty"
+  },
+
+   "offhand_show": {
+    "pos": [-4, 22, 3],
+    "rotate": [180, -5, -90],
+    "scale": [0.5, 0.5, 0.5]
+  
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 22, 3],
+    "rotate": [180, -5, -90],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+ 
+}

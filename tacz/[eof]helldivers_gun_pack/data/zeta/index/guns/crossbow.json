@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.crossbow.name",
+    "display": "zeta:crossbow_display",
+    "data": "zeta:crossbow_data",
+    "type": "sniper",
+    "sort": 2003,
+    "item_type": "modern_kinetic",
+    "tooltip":"zeta.gun.crossbow.desc"
+}

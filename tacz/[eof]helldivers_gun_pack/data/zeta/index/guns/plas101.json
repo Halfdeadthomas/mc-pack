@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.plas101.name",
+    "display": "zeta:plas101_display",
+    "data": "zeta:plas101_data",
+    "type": "rifle",
+    "item_type": "modern_kinetic",
+    "sort": 2007,
+    "tooltip":"zeta.gun.plas101.desc"
+}

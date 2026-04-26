@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 64
+    },
+       {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 64
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:smg32"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,54 @@
+{
+  "model": "zeta:gun/m206_geo",
+  "texture": "zeta:gun/uv/m206",
+  "hud": "zeta:gun/hud/m206",
+  "slot": "zeta:gun/slot/m206",
+  "animation": "zeta:m206",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "state_machine": "zeta:m206_state_machine",
+  
+  "transform": {
+    "scale": {
+      "thirdperson": [0.65, 0.65, 0.65],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [0.75, 0.75, 0.75]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1.5
+  },
+  "shell": {
+    "initial_velocity": [3, -0.5, 0.25],
+    "random_velocity": [3, 0.5, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -3000, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "zeta:m206/shoot",
+    "shoot_3p": "zeta:m206/shoot_3p",
+   
+    "inspect": "tacz:m249/m249_inspect",
+    "inspect_empty": "tacz:m249/m249_inspect_empty",
+    "draw": "tacz:m249/m249_draw",
+    "put_away": "tacz:m249/m249_put_away",
+    "silence": "tacz:m249/m249_silence",
+    "silence_3p": "tacz:m249/m249_silence_3p",
+    "melee_push": "tacz:melee_stock/melee_stock_02",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [0, 20, 5],
+    "rotate": [-20, 0, 30],
+    "scale": [0.7, 0.7, 0.7]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [0, 20, 5],
+    "rotate": [-20, 0, 30],
+    "scale": [0.7, 0.7, 0.7]
+    }
+  }
+}

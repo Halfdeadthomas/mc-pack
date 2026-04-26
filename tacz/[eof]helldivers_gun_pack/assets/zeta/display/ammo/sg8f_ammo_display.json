@@ -1,0 +1,12 @@
+{
+    "model": "zeta:ammo/sg8f_ammo_geo",
+    "texture": "zeta:ammo/uv/sg8f_ammo",
+    "slot": "zeta:ammo/slot/sg8f_ammo",
+  
+  "shell": {
+    "model": "zeta:shell/sg8f_shell_geo",
+    "texture": "zeta:shell/sg8f_shell"
+  }
+    }
+
+  

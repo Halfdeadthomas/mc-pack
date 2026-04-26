@@ -1,0 +1,34 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 72
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 32
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:arc12",
+    "ammo_count":1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

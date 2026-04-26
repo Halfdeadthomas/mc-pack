@@ -1,0 +1,89 @@
+{
+    "gunsmithlib_extension": {
+    "potion_effects": [
+      {
+        // 状态效果 id。
+        // 必填。
+        "effect_id": "minecraft:poison",
+        // 状态效果持续时间，单位为 tick。
+        // 可选。默认为 1 秒。
+        "duration": 200,
+        // 状态效果等级，1 = 1级，2 = 2级。
+        // 可选，默认为 1
+        "level": 3,
+        // 如果为 true, 那么粒子效果会变淡，类似信标带来的状态效果的样子。
+        // 可选，默认为 false。
+        "is_ambient": false,
+        // 如果为 false, 那么会隐藏这个状态的粒子效果。
+        // 可选，默认为 true。
+        "visible": true,
+        // 如果为 false, 那么这个状态效果不会在客户端物品栏gui上显示。
+        // 可选，默认为 true。
+        "show_icon": true,
+        // 每次命中施加状态效果的概率。
+        // 可选，默认为 1。
+        "chance": 1,
+        // 状态效果的最大叠加等级，为 0 时则不叠加。
+        // 可选，默认为 0。
+        "max_stack_level": 10
+      },
+      {
+        // 状态效果 id。
+        // 必填。
+        "effect_id": "minecraft:weakness",
+        // 状态效果持续时间，单位为 tick。
+        // 可选。默认为 1 秒。
+        "duration": 200,
+        // 状态效果等级，1 = 1级，2 = 2级。
+        // 可选，默认为 1
+        "level": 3,
+        // 如果为 true, 那么粒子效果会变淡，类似信标带来的状态效果的样子。
+        // 可选，默认为 false。
+        "is_ambient": false,
+        // 如果为 false, 那么会隐藏这个状态的粒子效果。
+        // 可选，默认为 true。
+        "visible": true,
+        // 如果为 false, 那么这个状态效果不会在客户端物品栏gui上显示。
+        // 可选，默认为 true。
+        "show_icon": true,
+        // 每次命中施加状态效果的概率。
+        // 可选，默认为 1。
+        "chance": 1,
+        // 状态效果的最大叠加等级，为 0 时则不叠加。
+        // 可选，默认为 0。
+        "max_stack_level": 6
+      },
+      {
+        // 状态效果 id。
+        // 必填。
+        "effect_id": "minecraft:glowing",
+        // 状态效果持续时间，单位为 tick。
+        // 可选。默认为 1 秒。
+        "duration": 400,
+        // 状态效果等级，1 = 1级，2 = 2级。
+        // 可选，默认为 1
+        "level": 1,
+        // 如果为 true, 那么粒子效果会变淡，类似信标带来的状态效果的样子。
+        // 可选，默认为 false。
+        "is_ambient": false,
+        // 如果为 false, 那么会隐藏这个状态的粒子效果。
+        // 可选，默认为 true。
+        "visible": true,
+        // 如果为 false, 那么这个状态效果不会在客户端物品栏gui上显示。
+        // 可选，默认为 true。
+        "show_icon": true,
+        // 每次命中施加状态效果的概率。
+        // 可选，默认为 1。
+        "chance": 1,
+        // 状态效果的最大叠加等级，为 0 时则不叠加。
+        // 可选，默认为 0。
+        "max_stack_level": 1
+      }
+    ]
+  },
+  "damage": {
+    "multiplier": 0.2
+  },
+   "weight": 0,
+   "extended_mag_level": 1
+  }

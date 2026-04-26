@@ -1,0 +1,11 @@
+{
+  "slot": "zeta:ammo/slot/heavy_ammo",
+  "texture": "zeta:ammo/uv/heavy_ammo",
+  "model": "zeta:ammo/heavy_ammo_geo",
+  "shell": {
+    "model": "tacz:shell/50bmg_shell",
+    "texture": "tacz:shell/50bmg_shell"
+  }
+ 
+}
+    

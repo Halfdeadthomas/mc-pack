@@ -1,0 +1,12 @@
+{
+    "model": "zeta:ammo/p113_ammo_geo",
+    "texture": "zeta:ammo/uv/p113_ammo",
+    "shell": {
+        "model": "tacz:shell/50ae_shell",
+        "texture": "tacz:shell/50ae_shell"
+      },
+    "slot": "zeta:ammo/slot/p113_ammo"
+   
+    }
+
+  

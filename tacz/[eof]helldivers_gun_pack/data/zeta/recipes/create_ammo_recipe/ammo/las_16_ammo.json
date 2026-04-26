@@ -1,0 +1,7 @@
+{"type":"create:compacting",
+"ingredients":[{"tag":"forge:ingots/iron"},
+{"tag":"forge:gems/lapis"},
+{"tag":"forge:rods/blaze"},
+{"tag":"forge:gems/quartz"},
+{"tag":"forge:gems/quartz"},
+{"tag":"forge:gems/lapis"}],"results":[{"item":"tacz:ammo","count":1,"nbt":{"AmmoId":"zeta:las_16_ammo"}}]}

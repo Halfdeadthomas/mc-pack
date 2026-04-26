@@ -1,0 +1,38 @@
+{
+  "materials": [
+     {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "zeta:sg8"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 16
+    }
+
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:sg8s"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

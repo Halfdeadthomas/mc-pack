@@ -1,0 +1,46 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 128
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 72
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 9
+    },
+      {
+      "item": {
+        "tag": "forge:ingots/netherite"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:nether_stars"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gems/amethyst"
+      },
+      "count": 9
+    }
+
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:las98"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

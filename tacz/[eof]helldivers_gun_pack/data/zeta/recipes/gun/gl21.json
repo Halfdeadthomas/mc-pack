@@ -1,0 +1,40 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "zeta:gp31"
+        }
+      },
+      "count": 1
+    },
+   
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 128
+    },
+    {
+      "item": {
+        "tag": "forge:nether_stars"
+      },
+      "count": 1
+    },
+        {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 21
+    }
+
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:gl21"
+   
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

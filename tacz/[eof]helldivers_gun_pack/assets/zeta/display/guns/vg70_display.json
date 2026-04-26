@@ -1,0 +1,42 @@
+{
+  "model": "zeta:gun/vg70_geo",
+  "texture": "zeta:gun/uv/vg70",
+  
+  "hud": "zeta:gun/hud/vg70",
+  "slot": "zeta:gun/slot/vg70",
+  "animation": "zeta:vg70",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "state_machine": "zeta:vg70_state_machine",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.75, 0.75, 0.75],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.75
+  },
+  "sounds": {
+    "draw": "tacz:db_short/db_short_draw",
+    "put_away": "tacz:db_short/db_short_put_away",
+    "shoot": "zeta:vg70/shoot",
+    "shoot_3p": "zeta:vg70/shoot_3p",
+    "melee_push": "zeta:melee_stock/melee_stock_01",
+    "melee_stock": "zeta:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+   "pos": [-5, 13, 3],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+  },
+  "hotbar_show": {
+    "0": {
+     "pos": [-5, 13, 3],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "zeta.attachment.ice_he",
+    "display": "zeta:ice_he_display",
+    "data": "zeta:ice_he_data",
+    "sort": 2008,
+    "type": "extended_mag"
+  
+  }

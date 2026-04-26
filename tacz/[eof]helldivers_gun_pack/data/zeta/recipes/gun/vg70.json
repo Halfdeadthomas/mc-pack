@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 128
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 49
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/netherite"
+      },
+      "count": 7
+    },
+     {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 7
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:vg70"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,10 @@
+{
+  "slot": "zeta:attachment/slot/stock_sh20",
+    "model": "zeta:attachment/stock_sh20_geo",
+  "texture": "zeta:attachment/uv/stock_sh20",
+ 
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

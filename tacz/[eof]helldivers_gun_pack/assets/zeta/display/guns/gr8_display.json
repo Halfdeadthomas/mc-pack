@@ -1,0 +1,53 @@
+{
+  // 默认的模型，在包目录下的 models 文件夹中寻找，不可为空
+  "model": "zeta:gun/gr8_geo",
+  // 默认材质，不可为空
+  "texture": "zeta:gun/uv/gr8",
+  "hud": "zeta:gun/hud/gr8",
+  "slot": "zeta:gun/slot/gr8",
+  "state_machine":"zeta:foxtail_kinetic_core_state_machine",
+  // 调用的动画名，会在包目录下的 animations 文件夹中寻找，不建议为空
+  "animation": "zeta:gr8",
+ 
+  "use_default_animation": "rifle",
+ 
+  "third_person_animation": "default",
+  
+  "transform": {
+   
+    "scale": {
+     
+      "thirdperson": [0.7, 0.7, 0.7],
+     
+      "ground": [0.6, 0.6, 0.6],
+      
+      "fixed": [1.5, 1.5, 1.5]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 8
+  },
+ 
+  "iron_zoom": 2,
+ 
+  "sounds": {
+    "shoot": "zeta:gr8/gr8_shoot",
+    "shoot_3p": "zeta:gr8/gr8_shoot_3p",
+     "draw": "tacz:rpg7/rpg7_draw",
+    "put_away": "tacz:rpg7/rpg7_put_away"
+  },
+ 
+  "offhand_show": {
+    "pos": [-4, 21, 3],
+    "rotate": [180, -5, -90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 21, 3],
+    "rotate": [180, -5, -90],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

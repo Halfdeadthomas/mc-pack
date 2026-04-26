@@ -1,0 +1,13 @@
+name = "[TACZ] LesRaisins Tactical Equipements"
+filename = "lrtactical-1.20.1-0.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "63632be6f3c1069c5cb72722a2caa07bd7d5b901"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7970303
+project-id = 1273094

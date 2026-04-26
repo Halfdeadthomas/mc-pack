@@ -1,0 +1,13 @@
+name = "Deimos Lib"
+filename = "deimos-1.20.1-forge-2.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8e06b3f26aab60f527d604f3792e553548ae4537"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7955860
+project-id = 1158094

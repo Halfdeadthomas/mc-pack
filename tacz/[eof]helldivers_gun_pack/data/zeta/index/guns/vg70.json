@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.vg70.name",
+    "display": "zeta:vg70_display",
+    "data": "zeta:vg70_data",
+    "type": "rifle",
+    "sort": 2000,
+    "item_type": "modern_kinetic",
+    "tooltip":"zeta.gun.vg70.desc"
+}

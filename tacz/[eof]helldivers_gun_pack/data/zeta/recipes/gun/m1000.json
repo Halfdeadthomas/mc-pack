@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 60
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/netherite"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 480
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:m1000"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

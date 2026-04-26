@@ -1,0 +1,8 @@
+{
+    "name": "zeta.attachment.ice_bl",
+    "display": "zeta:ice_bl_display",
+    "data": "zeta:ice_bl_data",
+    "sort": 2009,
+    "type": "extended_mag"
+  
+  }

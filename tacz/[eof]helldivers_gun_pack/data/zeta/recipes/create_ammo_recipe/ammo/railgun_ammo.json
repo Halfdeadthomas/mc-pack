@@ -1,0 +1,17 @@
+{"type":"create:compacting",
+"ingredients":
+[{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:dusts/redstone"},
+{"tag":"forge:dusts/redstone"},
+{"tag":"forge:dusts/redstone"},
+{"tag":"forge:dusts/redstone"},
+{"tag":"forge:dusts/redstone"},
+{"tag":"forge:dusts/redstone"}],
+"results":[{"item":"tacz:ammo","count":4,"nbt":{"AmmoId":"zeta:railgun_ammo"}}]}

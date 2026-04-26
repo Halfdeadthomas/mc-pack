@@ -1,0 +1,66 @@
+{
+    "model": "zeta:gun/sg225sp_geo",
+    "texture": "zeta:gun/uv/sg225sp",
+    
+    "slot": "zeta:gun/slot/sg225sp",
+    "animation": "zeta:sg225sp",
+    "use_default_animation": "rifle",
+    "hud": "zeta:gun/hud/sg225sp",
+    "state_machine": "zeta:sg225sp_state_machine",
+    "muzzle_flash": {
+        "texture": "tacz:flash/common_muzzle_flash",
+        "scale": 1
+    },
+    "shell": {
+        "initial_velocity": [5, 2, 1],
+        "random_velocity": [1, 1, 0.25],
+        "acceleration": [0.0, -10, 0.0],
+        "angular_velocity": [360, -1200, 90],
+        "living_time": 1.0
+    },
+    "sounds": {
+        "draw": "zeta:sg225_breaker/sg225_breaker_draw",
+        "dry_fire": "zeta:sg225_breaker/sg225_breaker_dry_fire",
+        "shoot": "zeta:sg225_breaker/sg225_breaker_shoot",
+        "silence": "zeta:sg225_breaker/sg225_breaker_shoot",
+        "shoot_3p": "zeta:sg225_breaker/sg225_breaker_shoot",
+        "silence_3p": "zeta:sg225_breaker/sg225_breaker_shoot",
+        "reload_empty": "zeta:sg225_breaker/sg225_breaker_reload_empty",
+        "reload_tactical": "zeta:sg225_breaker/sg225_breaker_reload_tactical",
+        "inspect": "zeta:sg225_breaker/sg225_breaker_inspect",
+        "inspect_empty": "zeta:sg225_breaker/sg225_breaker_inspect_empty",
+        "put_away": "zeta:sg225_breaker/sg225_breaker_put_away"
+    },
+    "transform": {
+        "scale": {
+            "thirdperson": [
+                0.7,
+                0.7,
+                0.7
+            ],
+            "ground": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "fixed": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+     "offhand_show": {
+    "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+    }
+  },
+    "third_person_animation": "default"
+}

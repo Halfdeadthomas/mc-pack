@@ -1,0 +1,16 @@
+{"type":"create:compacting",
+"ingredients":[{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:gems/quartz"},
+{"tag":"forge:gems/quartz"},
+{"tag":"forge:gems/quartz"},
+{"tag":"forge:dusts/redstone"},
+{"tag":"forge:dusts/redstone"},
+{"tag":"forge:dusts/redstone"},
+{"tag":"forge:dusts/redstone"},
+{"tag":"forge:dusts/redstone"}
+],
+"results":[{"item":"tacz:ammo","count":1,"nbt":{"AmmoId":"zeta:plas_1_ammo"}}]}

@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.br_14.name",
+    "display": "zeta:br_14_display",
+    "data": "zeta:br_14_data",
+    "type": "rifle",
+    "sort": 2002,
+    "item_type": "modern_kinetic",
+    "tooltip":"zeta.gun.br_14.desc"
+}

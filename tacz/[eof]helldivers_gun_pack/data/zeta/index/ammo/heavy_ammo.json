@@ -1,0 +1,6 @@
+{
+    "name": "zeta.ammo.heavy_ammo.name",
+    "display": "zeta:heavy_ammo_display",
+    "sort": 2005,
+    "stack_size": 10
+  }

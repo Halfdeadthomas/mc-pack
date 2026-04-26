@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 16
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "zeta:rl77_rocket",
+    "count": 5
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

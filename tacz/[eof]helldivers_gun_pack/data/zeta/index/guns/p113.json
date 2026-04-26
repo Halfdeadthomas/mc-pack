@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.p113.name",
+    "display": "zeta:p113_display",
+    "data": "zeta:p113_data",
+    "type": "pistol",
+    "tooltip":"zeta.gun.p113.desc",
+    "item_type": "modern_kinetic",
+    "sort": 2001
+}

@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 80
+    },
+        {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 60
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "zeta:railgun_ammo",
+    "count": 20
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

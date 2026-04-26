@@ -1,0 +1,7 @@
+{
+    "name": "zeta.attachment.scope_apw",
+    "display": "zeta:scope_apw_display",
+    "data": "zeta:scope_apw_data",
+    "sort": 2000,
+    "type": "scope"
+  }

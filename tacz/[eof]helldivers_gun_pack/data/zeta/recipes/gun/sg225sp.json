@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 64
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 16
+    }
+   
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:sg225sp"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

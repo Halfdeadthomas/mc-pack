@@ -1,0 +1,244 @@
+{
+  "gunsmithlib_extension": {
+   // 带药水效果的爆炸弹药爆炸后生成的药水云的持续时间
+    // 可留空，默认值为 600（30 秒），
+    // 4.7.0新增
+    "gun_explosive": {
+      "prevent_destroying_loot_items": true
+    },
+    "area_effect_cloud_duration": 200,
+    // 药水云的最小大小比例（结束时的大小/初始大小）
+    // 可留空，默认值为 0（药水云持续时间结束时缩小到 0 大小）
+    // 4.7.0新增
+    //"area_effect_cloud_min_size_rate": 0.5,
+    // 药水效果列表
+     "potion_effects": [
+      {
+        // 状态效果 id。
+        // 必填。
+        "effect_id": "minecraft:slowness",
+        // 状态效果持续时间，单位为 tick。
+        // 可选。默认为 1 秒。
+        "duration": 60,
+        // 状态效果等级，1 = 1级，2 = 2级。
+        // 可选，默认为 1
+        "level": 5,
+        // 如果为 true, 那么粒子效果会变淡，类似信标带来的状态效果的样子。
+        // 可选，默认为 false。
+        "is_ambient": false,
+        // 如果为 false, 那么会隐藏这个状态的粒子效果。
+        // 可选，默认为 true。
+        "visible": false,
+        // 如果为 false, 那么这个状态效果不会在客户端物品栏gui上显示。
+        // 可选，默认为 true。
+        "show_icon": false,
+        // 每次命中施加状态效果的概率。
+        // 可选，默认为 1。
+        "chance": 1,
+        // 状态效果的最大叠加等级，为 0 时则不叠加。
+        // 可选，默认为 0。
+        "max_stack_level": 10
+      },
+        {
+        // 状态效果 id。
+        // 必填。
+        "effect_id": "minecraft:weakness",
+        // 状态效果持续时间，单位为 tick。
+        // 可选。默认为 1 秒。
+        "duration": 60,
+        // 状态效果等级，1 = 1级，2 = 2级。
+        // 可选，默认为 1
+        "level": 2,
+        // 如果为 true, 那么粒子效果会变淡，类似信标带来的状态效果的样子。
+        // 可选，默认为 false。
+        "is_ambient": false,
+        // 如果为 false, 那么会隐藏这个状态的粒子效果。
+        // 可选，默认为 true。
+        "visible": false,
+        // 如果为 false, 那么这个状态效果不会在客户端物品栏gui上显示。
+        // 可选，默认为 true。
+        "show_icon": false,
+        // 每次命中施加状态效果的概率。
+        // 可选，默认为 1。
+        "chance": 1,
+        // 状态效果的最大叠加等级，为 0 时则不叠加。
+        // 可选，默认为 0。
+        "max_stack_level": 10
+      },
+       {
+        // 状态效果 id。
+        // 必填。
+        "effect_id": "minecraft:wither",
+        // 状态效果持续时间，单位为 tick。
+        // 可选。默认为 1 秒。
+        "duration": 60,
+        // 状态效果等级，1 = 1级，2 = 2级。
+        // 可选，默认为 1
+        "level": 5,
+        // 如果为 true, 那么粒子效果会变淡，类似信标带来的状态效果的样子。
+        // 可选，默认为 false。
+        "is_ambient": false,
+        // 如果为 false, 那么会隐藏这个状态的粒子效果。
+        // 可选，默认为 true。
+        "visible": false,
+        // 如果为 false, 那么这个状态效果不会在客户端物品栏gui上显示。
+        // 可选，默认为 true。
+        "show_icon": false,
+        // 每次命中施加状态效果的概率。
+        // 可选，默认为 1。
+        "chance": 1,
+        // 状态效果的最大叠加等级，为 0 时则不叠加。
+        // 可选，默认为 0。
+        "max_stack_level": 10
+      },
+        {
+        // 状态效果 id。
+        // 必填。
+        "effect_id": "minecraft:poison",
+        // 状态效果持续时间，单位为 tick。
+        // 可选。默认为 1 秒。
+        "duration": 60,
+        // 状态效果等级，1 = 1级，2 = 2级。
+        // 可选，默认为 1
+        "level": 5,
+        // 如果为 true, 那么粒子效果会变淡，类似信标带来的状态效果的样子。
+        // 可选，默认为 false。
+        "is_ambient": false,
+        // 如果为 false, 那么会隐藏这个状态的粒子效果。
+        // 可选，默认为 true。
+        "visible": true,
+        // 如果为 false, 那么这个状态效果不会在客户端物品栏gui上显示。
+        // 可选，默认为 true。
+        "show_icon": true,
+        // 每次命中施加状态效果的概率。
+        // 可选，默认为 1。
+        "chance": 1,
+        // 状态效果的最大叠加等级，为 0 时则不叠加。
+        // 可选，默认为 0。
+        "max_stack_level": 10
+      }
+    ]
+  },
+  "ammo": "zeta:s11_ammo",
+  "ammo_amount": 1,
+  "extended_mag_ammo_amount": [
+    1,
+    1,
+    1
+  ],
+  "script": "zeta:s11_logic",
+  "bolt": "open_bolt",
+  "rpm": 700,
+  "bullet": {
+    "life": 0.75,
+    "bullet_amount": 1,
+    "damage": 104,
+    "extra_damage": {
+      "armor_ignore": 0.80,
+      "head_shot_multiplier": 1.75,
+      "damage_adjust": [
+        {"distance": 10, "damage": 104},
+        {"distance": 40, "damage": 100},
+        {"distance": "infinite", "damage": 70}
+      ]
+    },
+    "explosion": {
+      "explode": true,
+      "damage": 0.5,
+      "radius": 5,
+      "knockback": false,
+      "delay": 100
+    },
+    "speed": 300,
+    "gravity": 0.05,
+    "knockback": 0.5,
+    "friction": 0.03,
+    "ignite": false,
+    "pierce": 3
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 1.95,
+      "tactical": 1.92
+    },
+    "cooldown": {
+      "empty": 2.96,
+      "tactical": 2.95
+    }
+  },
+  "draw_time": 0.96,
+  "put_away_time": 1,
+  "aim_time": 0.2,
+  "sprint_time": 0.2,
+  "weight": 8.5,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.2,
+    "reload": 0
+  },
+  "crawl_recoil_multiplier": 0.5,
+  "fire_mode": [
+     "semi"
+  ],
+ "recoil": {
+    "pitch": [
+      {"time": 0, "value": [4, 4]},
+      {"time": 0.07, "value": [2.5, 2.5]},
+      {"time": 0.16, "value": [3.5, 3.5]},
+      {"time": 0.24, "value": [1.85, 1.85]},
+      {"time": 0.6, "value": [-0.5, -0.5]},
+      {"time": 0.71, "value": [0.25, 0.25]},
+      {"time": 0.83, "value": [0, 0]},
+      {"time": 0.88, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.75, -0.75]},
+      {"time": 0.08, "value": [0.6, 0.6]},
+      {"time": 0.17, "value": [-0.35, -0.35]},
+      {"time": 0.28, "value": [0.25, 0.25]},
+      {"time": 0.5, "value": [0, 0]},
+      {"time": 0.8, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 3,
+    "move": 4,
+    "sneak": 2.5,
+    "lie": 2.0,
+    "aim": 0.05
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    "cooldown": 0.6,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_stock",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 1,
+      // 刺刀范围角度
+      "range_angle": 30,
+      // 伤害值
+      "damage": 2,
+      // 击退效果
+      "knockback": 0.5,
+      // 前摇时长，单位：秒
+      "prep": 0.1
+    }
+  },
+  "allow_attachment_types": [
+    "scope",
+    "laser",
+    "extended_mag"
+  ],
+  "builtin_attachments": {
+    "scope": "zeta:sight_plasma"
+  },
+  "exclusive_attachments": {
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "model": "zeta:ammo/ar_ammo_geo",
+    "texture": "zeta:ammo/uv/ar_ammo",
+    "shell": {
+    "model": "tacz:shell/762x39_shell",
+    "texture": "tacz:shell/762x39_shell"
+  },
+    "slot": "zeta:ammo/slot/ar_ammo"
+   
+    }
+
+  

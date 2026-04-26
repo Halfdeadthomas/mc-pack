@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 64
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 128
+    }
+   
+  ],
+  "result": {
+    "type": "gun",
+    "id": "zeta:m105"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,68 @@
+{
+  "model": "zeta:gun/las58_geo",
+  "texture": "zeta:gun/uv/las58",
+  "hud": "zeta:gun/hud/las58",
+  "slot": "zeta:gun/slot/las58",
+  "animation": "zeta:las58",
+  "state_machine": "zeta:las_5_state_machine",
+  "use_default_animation": "pistol",
+      "ammo_count_style": "percent",
+  "player_animator_3rd": "tacz:pistol_default.player_animation",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.65, 0.65, 0.65],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1, 1, 1]
+    }
+  },
+  
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.7
+  },
+  "sounds": {
+    "shoot": "zeta:las58/shoot",
+   "shoot_3p": "zeta:las58/shoot_3p",
+       "inspect":  "zeta:p4/p4_inspect",
+    "inspect_empty": "zeta:p4/p4_inspect",
+    "draw": "zeta:p4/p4_draw"
+  },
+   "text_show": {
+    // 作用的组名，该组的旋转点决定文本的位置和朝向
+    "las_r": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.35,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#000000",
+      // 亮度：1-15
+      "light": 1,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "LAS-58 TALON"
+    },
+    "las_l": {
+      "scale": 0.35,
+      "align": "center",
+      "shadow": false,
+      "color": "#000000",
+      "light": 1,
+      "text": "LAS-58 TALON"
+    }
+  },
+  "offhand_show": {
+    "pos": [4, 13, -2],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [4, 13, -2],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

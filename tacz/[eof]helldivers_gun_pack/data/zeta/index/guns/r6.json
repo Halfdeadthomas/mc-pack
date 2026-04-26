@@ -1,0 +1,8 @@
+{
+  "name": "zeta.gun.r6.name",
+  "display": "zeta:r6_display",
+  "data": "zeta:r6_data",
+  "tooltip": "zeta.gun.r6.desc",
+  "sort": 2001,
+  "type": "sniper"
+}

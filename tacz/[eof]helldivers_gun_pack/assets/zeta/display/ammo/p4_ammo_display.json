@@ -1,0 +1,11 @@
+{
+    "model": "zeta:ammo/p4_ammo_geo",
+    "texture": "zeta:ammo/uv/p4_ammo",
+    "slot": "zeta:ammo/slot/p4_ammo",
+    "shell": {
+        "model": "zeta:shell/p4_shell_geo",
+        "texture": "zeta:shell/p4_shell"
+      }
+    }
+
+  

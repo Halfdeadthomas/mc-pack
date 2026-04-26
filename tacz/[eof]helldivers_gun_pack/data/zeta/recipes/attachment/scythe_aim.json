@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:glass"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "zeta:scythe_aim",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_b",
+    "nbt": {
+      "BlockId": "zeta:terminal"
+    }
+  },
+  "pattern": [
+    "ILI",
+    "III",
+    "BRB"
+  ],
+  "key": {
+    "L": {
+      "tag": "forge:glass"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+       "tag": "forge:storage_blocks/gold"
+    }
+  }
+}

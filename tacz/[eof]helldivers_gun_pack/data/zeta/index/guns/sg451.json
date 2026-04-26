@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.sg451.name",
+    "display": "zeta:sg451_display",
+    "data": "zeta:sg451_data",
+    "type": "shotgun",
+    "item_type": "modern_kinetic",
+    "sort": 2004,
+    "tooltip":"zeta.gun.sg451.desc"
+}

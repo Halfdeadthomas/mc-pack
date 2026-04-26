@@ -1,0 +1,12 @@
+{
+    "model": "zeta:ammo/sg225sp_ammo_geo",
+    "texture": "zeta:ammo/uv/sg225sp_ammo",
+    "slot": "zeta:ammo/slot/sg225sp_ammo",
+  
+  "shell": {
+    "model": "tacz:shell/12g_shell",
+    "texture": "tacz:shell/12g_shell"
+  }
+    }
+
+  

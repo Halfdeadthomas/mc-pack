@@ -1,0 +1,8 @@
+{
+    "name": "zeta.attachment.jet",
+    "display": "zeta:jet_display",
+    "data": "zeta:jet_data",
+    "tooltip": "zeta.attachment.jet.desc",
+    "sort": 2001,
+    "type": "extended_mag"
+  }

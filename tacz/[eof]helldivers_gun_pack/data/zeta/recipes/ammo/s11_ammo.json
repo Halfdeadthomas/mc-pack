@@ -1,0 +1,35 @@
+{
+  "materials": [
+  {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "minecraft:spider_eye"
+      },
+      "count": 3
+    },
+       {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 24
+    }
+
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "zeta:s11_ammo",
+    "count": 6
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

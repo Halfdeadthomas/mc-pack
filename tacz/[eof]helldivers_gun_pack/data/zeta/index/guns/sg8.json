@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.sg8.name",
+    "display": "zeta:sg8_display",
+    "data": "zeta:sg8_data",
+    "type": "shotgun",
+    "item_type": "modern_kinetic",
+    "sort": 2001,
+    "tooltip":"zeta.gun.sg8.desc"
+}

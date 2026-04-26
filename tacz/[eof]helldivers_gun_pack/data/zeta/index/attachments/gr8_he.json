@@ -1,0 +1,9 @@
+{
+    "name": "zeta.attachment.gr8_he",
+    "display": "zeta:gr8_he_display",
+    "data": "zeta:gr8_he_data",
+    "tooltip": "zeta.attachment.gr8_he.desc",
+    "sort": 2002,
+    "type": "extended_mag"
+  
+  }

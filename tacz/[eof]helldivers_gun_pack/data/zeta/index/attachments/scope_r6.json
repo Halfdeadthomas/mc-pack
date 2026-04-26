@@ -1,0 +1,7 @@
+{
+    "name": "zeta.attachment.scope_r6",
+    "display": "zeta:scope_r6_display",
+    "data": "zeta:scope_r6_data",
+    "sort": 2001,
+    "type": "scope"
+  }

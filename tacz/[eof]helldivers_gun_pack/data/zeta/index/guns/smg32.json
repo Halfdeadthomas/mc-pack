@@ -1,0 +1,7 @@
+{
+  "name": "zeta.gun.smg32.name",
+  "display": "zeta:smg32_display",
+  "data": "zeta:smg32_data",
+  "tooltip": "zeta.gun.smg32.desc",
+  "type": "smg"
+}

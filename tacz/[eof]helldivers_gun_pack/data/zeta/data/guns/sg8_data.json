@@ -1,0 +1,113 @@
+{
+  "ammo": "zeta:sg8_ammo",
+  "rpm": 250,
+  "ammo_amount": 16,
+ 
+  "bolt": "manual_action",
+  "bullet": {
+    "life": 10,
+    "bullet_amount": 9,
+    "damage": 63,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.2,
+      "head_shot_multiplier": 1.5,
+      "damage_adjust": [
+        {"distance": 10, "damage": 63},
+        {"distance": 45, "damage": 54},
+        {"distance": "infinite", "damage": 45}
+      ]
+    },
+    "speed": 160,
+    "gravity": 0.005,
+    "knockback": 0.05,
+    "friction": 0.005,
+    "ignite": false,
+    "pierce": 1
+    
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 2.13,
+      "tactical": 0.37
+    },
+    "cooldown": {
+      "empty": 2.83,
+      "tactical": 0.6
+    }
+  },
+
+  "draw_time": 0.35,
+  "put_away_time": 0.45,
+  "aim_time": 0.1,
+  "sprint_time": 0.15,
+  "bolt_action_time": 0.3,
+  "weight": 4.0,
+  "fire_mode": [
+    "semi"
+    
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.25, 0.25]},
+      {"time": 0.125, "value": [0.25, 0.25]},
+      {"time": 0.4, "value": [-0.25, -0.25]},
+      {"time": 0.55, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.5, 0.5]},
+      {"time": 0.1, "value": [-0.5, 0.5]},
+      {"time": 0.2, "value": [0.15, 0.15]},
+      {"time": 0.4, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 5,
+    "move": 7,
+    "sneak": 4.5,
+    "lie": 3.5,
+    "aim": 3
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    "cooldown": 0.5,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_stock",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 1,
+      // 刺刀范围角度
+      "range_angle": 30,
+      // 伤害值
+      "damage": 2,
+      // 击退效果
+      "knockback": 0.75,
+      // 前摇时长，单位：秒
+      "prep": 0.1
+    }
+  },
+  "script": "zeta:sg8_logic",
+  "script_param": {
+    "bolt_time": 0.5,
+    "bolt_feed_time": 0.3,
+    "intro_empty": 2.12,
+    "intro_left": 0.435,
+    "intro_right": 0.8,
+    "loop": 0.6667,
+    "ending": 0.6,
+    "intro_empty_feed": 1.25,
+    "loop_feed": 0.375
+  },
+    "builtin_attachments": {
+    "scope": "zeta:sight_shotgun"
+  },
+  "allow_attachment_types": [
+    "scope"
+  ]
+  }

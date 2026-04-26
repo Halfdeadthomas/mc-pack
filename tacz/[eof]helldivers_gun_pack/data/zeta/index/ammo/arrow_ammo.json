@@ -1,0 +1,6 @@
+{
+    "name": "zeta.ammo.arrow_ammo.name",
+    "display": "zeta:arrow_ammo_display",
+    "sort": 2002,
+    "stack_size": 8
+  }

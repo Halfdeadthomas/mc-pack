@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.gr8.name",
+    "display": "zeta:gr8_display",
+    "data": "zeta:gr8_data",
+    "type": "rpg",
+    "item_type": "modern_kinetic",
+    "sort": 36001,
+    "tooltip":"zeta.gun.gr8.desc"
+}

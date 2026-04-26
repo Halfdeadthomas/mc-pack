@@ -1,0 +1,15 @@
+{
+  "slot": "zeta:attachment/slot/sight_shotgun",
+  "model": "zeta:attachment/sight_shotgun_geo",
+  "texture": "zeta:attachment/uv/sight_shotgun",
+  "zoom": [
+    1.25
+  ],
+  "scope": false,
+  "sight": true,
+  "fov": 60.0,
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

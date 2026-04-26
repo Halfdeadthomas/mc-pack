@@ -1,0 +1,126 @@
+{
+ 
+  "filter": "zeta:terminal",
+  "tabs" : [
+{
+  "id": "tacz:ammo",
+  "name": "zeta.type.ammo.name",
+  "icon":{
+    "item": "tacz:ammo",
+    "nbt":{
+      "AmmoId": "zeta:ar_ammo"
+    }
+  }
+},
+{
+  "id": "tacz:pistol",
+  "name": "zeta.type.pistol.name",
+  "icon":{
+    "item": "tacz:modern_kinetic_gun",
+    "nbt":{
+      "GunId": "zeta:p4"
+    }
+  }
+},
+{
+  "id": "tacz:rifle",
+  "name": "zeta.type.rifle.name",
+  "icon":{
+    "item": "tacz:modern_kinetic_gun",
+    "nbt":{
+      "GunId": "zeta:br_14"
+    }
+  }
+},
+{
+  "id": "tacz:mg",
+  "name": "zeta.type.mg.name",
+  "icon":{
+    "item": "tacz:modern_kinetic_gun",
+    "nbt":{
+      "GunId": "zeta:m206"
+    }
+  }
+},
+{
+  "id": "tacz:sniper",
+  "name": "zeta.type.sniper.name",
+  "icon":{
+    "item": "tacz:modern_kinetic_gun",
+    "nbt":{
+      "GunId": "zeta:apw1"
+    }
+  }
+},
+{
+  "id": "tacz:shotgun",
+  "name": "zeta.type.shotgun.name",
+  "icon":{
+    "item": "tacz:modern_kinetic_gun",
+    "nbt":{
+      "GunId": "zeta:sg8"
+    }
+  }
+},
+{
+  "id": "tacz:smg",
+  "name": "zeta.type.smg.name",
+  "icon":{
+    "item": "tacz:modern_kinetic_gun",
+    "nbt":{
+      "GunId": "zeta:smg32"
+    }
+  }
+},
+{
+  "id": "tacz:rpg",
+  "name": "zeta.type.rpg.name",
+  "icon":{
+    "item": "tacz:modern_kinetic_gun",
+    "nbt":{
+      "GunId": "zeta:quasar"
+    }
+  }
+},
+{
+  "id": "tacz:scope",
+  "name": "zeta.type.scope.name",
+  "icon":{
+    "item": "tacz:attachment",
+    "nbt":{
+      "AttachmentId": "zeta:scope_sup"
+    }
+  }
+},
+{
+  "id": "tacz:grip",
+  "name": "zeta.type.grip.name",
+  "icon":{
+    "item": "tacz:attachment",
+    "nbt":{
+      "AttachmentId": "zeta:grip_exp"
+    }
+  }
+},
+{
+  "id": "tacz:extended_mag",
+  "name": "zeta.type.extended_mag.name",
+    "icon": {
+      "item": "tacz:attachment",
+      "nbt": {
+        "AttachmentId": "zeta:pos_arrow"
+      }
+    }
+},
+{
+  "id": "tacz:stock",
+  "name": "zeta.type.stock.name",
+  "icon":{
+    "item": "tacz:attachment",
+    "nbt":{
+      "AttachmentId": "zeta:stock_sh20"
+    }
+  }
+}
+  ]
+}

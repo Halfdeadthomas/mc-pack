@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 60
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 36
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 60
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "zeta:plas_1_ammo",
+    "count": 6
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

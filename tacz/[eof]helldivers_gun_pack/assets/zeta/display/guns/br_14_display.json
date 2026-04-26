@@ -1,0 +1,65 @@
+{
+  "model": "zeta:gun/br_14_geo",
+  "texture": "zeta:gun/uv/br_14",
+ 
+  "hud": "zeta:gun/hud/br_14",
+  "slot": "zeta:gun/slot/br_14",
+  "animation": "zeta:br_14",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+   //"state_machine": "tacz:ak47_state_machine",
+   "state_machine":"zeta:foxtail_kinetic_core_state_machine",
+   "state_machine_param": {
+    "ban_tactical_reload": 0,    //填1使武器无法在弹药没打空时换弹，一般是给单发筒子使用
+    "different_reload_time": 1,  //填1启用xmag与其接续换弹，如果填0就可以不填任何有关xmag的参数
+    "closed_bolt": 1             //武器的枪膛类型如果为closed_bolt则填写1，不是就是0
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [0.65, 0.65, 0.65],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1.125
+  },
+  "iron_zoom": 1.2,
+ "shell": {
+    // 抛壳的初速度
+    "initial_velocity": [5, 2, 1],
+    // 抛壳随机变化的运动速度
+    "random_velocity": [1, 1, 0.25],
+    // 抛壳的加速度
+    "acceleration": [0.0, -10, 0.0],
+    // 抛壳的三轴角速度
+    "angular_velocity": [360, -1200, 90],
+    // 抛壳渲染存活时间，单位为秒
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "zeta:br_14/shoot",
+    "shoot_3p": "zeta:br_14/shoot_3p",
+    "silence": "zeta:br_14/xiaoyin",
+    "silence_3p": "zeta:br_14/xiaoyin_3p",
+    "draw": "tacz:ak47/ak47_draw",
+    "put_away": "tacz:ak47/ak47_put_away"
+  },
+  "offhand_show": {
+    "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+  },
+  // 快捷栏枪械显示
+  // 没有此字段，不显示快捷栏枪械
+  "hotbar_show": {
+    // 快捷栏索引，默认是 0-8，共九个，但是实际上除去主手，只能显示八个
+    // 没有的，则不会显示
+    "0": {
+      "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+    }
+  }
+}

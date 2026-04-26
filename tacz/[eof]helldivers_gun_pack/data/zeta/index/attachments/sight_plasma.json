@@ -1,0 +1,7 @@
+{
+    "name": "zeta.attachment.sight_plasma",
+    "display": "zeta:sight_plasma_display",
+    "data": "zeta:sight_plasma_data",
+    "sort": 2005,
+    "type": "scope"
+  }

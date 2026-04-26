@@ -1,0 +1,8 @@
+{
+    "name": "zeta.gun.plas45.name",
+    "display": "zeta:plas45_display",
+    "data": "zeta:plas45_data",
+     "type": "rpg",
+     "sort": 36005,
+    "tooltip":"zeta.gun.plas45.desc"
+}

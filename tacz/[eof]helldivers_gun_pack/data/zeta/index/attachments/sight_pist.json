@@ -1,0 +1,7 @@
+{
+    "name": "zeta.attachment.sight_pist",
+    "display": "zeta:sight_pist_display",
+    "data": "zeta:sight_pist_data",
+    "sort": 2006,
+    "type": "scope"
+  }

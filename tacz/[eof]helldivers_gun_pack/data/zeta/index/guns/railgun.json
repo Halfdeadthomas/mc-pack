@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.railgun.name",
+    "display": "zeta:railgun_display",
+    "data": "zeta:railgun_data",
+    "type": "sniper",
+    "item_type": "modern_kinetic",
+    "sort": 2002,
+    "tooltip":"zeta.gun.railgun.desc"
+}

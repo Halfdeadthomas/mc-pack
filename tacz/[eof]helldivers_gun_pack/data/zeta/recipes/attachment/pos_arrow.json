@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 16
+    },
+   {
+      "item": {
+        "item": "minecraft:spider_eye"
+      },
+      "count": 5
+    },
+     {
+      "item": {
+        "tag": "forge:dusts/glowstone"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "zeta:pos_arrow",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,141 @@
+{
+    "gunsmithlib_extension": {
+       "potion_effects": [
+      {
+        "effect_id": "minecraft:slowness",
+        "duration": 60,
+        "level": 5,
+        "is_ambient": false,
+        "visible": false,
+        "show_icon": true,
+        "chance": 0.1,
+        "max_stack_level": 10
+      },
+        {
+        "effect_id": "minecraft:weakness",
+        "duration": 60,
+        "level": 2,
+        "is_ambient": false,
+        "visible": false,
+        "show_icon": true,
+        "chance": 0.1,
+        "max_stack_level": 2
+      },
+        {
+        "effect_id": "minecraft:mining_fatigue",
+        "duration": 60,
+        "level": 10,
+        "is_ambient": false,
+        "visible": false,
+        "show_icon": true,
+        "chance": 0.1,
+        "max_stack_level": 10
+      }
+    ]
+  },
+  "ammo": "zeta:plas_1_ammo",
+  "rpm": 150,
+  "bullet": {
+    "life": 0.1,
+    "bullet_amount": 12,
+    "damage": 12,
+    "extra_damage": {
+      "armor_ignore": 0.4,
+      "head_shot_multiplier": 1.25,
+      "damage_adjust": [
+        {"distance": 1.5, "damage": 12},
+        {"distance": 3, "damage": 9},
+        {"distance": "infinite", "damage": 6}
+      ]
+    },
+    "speed": 45,
+    "gravity": 0,
+    "knockback": 0.005,
+    "friction": 0,
+    "ignite": false,
+    "pierce": 3
+  },
+  "ammo_amount": 1,
+  "extended_mag_ammo_amount": [
+    1,
+    1,
+    1
+  ],
+  
+  "bolt": "open_bolt",
+  "reload": {
+    "type": "fuel",
+    "feed": {
+      "empty": 1,
+      "tactical": 1
+    },
+    "cooldown": {
+      "empty": 1,
+      "tactical": 1
+    }
+  },
+  "draw_time": 0.3,
+  "put_away_time": 0.3,
+  "sprint_time": 0.1,
+  "aim_time": 0.3,
+  "weight": 0.5,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.2,
+    "reload": 0
+  },
+  "crawl_recoil_multiplier": 0.75,
+  "fire_mode": [
+    "auto"
+  ],
+  "script": "zeta:melee_logic",
+  "allow_attachment_types": [
+    "stock"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.15, 0.15]},
+      {"time": 0.3, "value": [0.15, 0.15]},
+      {"time": 0.5, "value": [-0.1, -0.1]},
+      {"time": 0.65, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.005, 0.005]},
+      {"time": 0.3, "value": [-0.005, 0.005]},
+      {"time": 0.5, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 3,
+    "move": 3,
+    "sneak": 3,
+    "lie": 3,
+    "aim": 3
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    // 会与刺刀等配件的冷却时间做加和
+    "cooldown": 0.5,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_stock",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 3,
+      // 刺刀范围角度
+      "range_angle": 20,
+      // 刺刀冷却时间，枪械里还有个刺刀冷却时间参数，两者做加和
+      "cooldown": 0,
+      // 伤害值
+      "damage": 6,
+      // 击退效果
+      "knockback": 0.4,
+      // 前摇时长，单位：秒
+      "prep": 0.05
+    }
+  }
+}

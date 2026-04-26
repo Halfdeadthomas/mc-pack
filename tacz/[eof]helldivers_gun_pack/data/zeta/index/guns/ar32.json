@@ -1,0 +1,9 @@
+{
+    "name": "zeta.gun.ar32.name",
+    "display": "zeta:ar32_display",
+    "data": "zeta:ar32_data",
+    "type": "rifle",
+    "sort": 2000,
+    "item_type": "modern_kinetic",
+    "tooltip":"zeta.gun.ar32.desc"
+}

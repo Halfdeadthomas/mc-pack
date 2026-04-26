@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 32
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "zeta:gr8_he",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

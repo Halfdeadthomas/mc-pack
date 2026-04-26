@@ -1,0 +1,54 @@
+{
+  "model": "zeta:gun/sg8_geo",
+  "texture": "zeta:gun/uv/sg8",
+  "hud": "zeta:gun/hud/sg8",
+  "slot": "zeta:gun/slot/sg8",
+  "animation": "zeta:sg8",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.75, 0.75, 0.75],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "state_machine": "zeta:sg8_state_machine",
+  "state_machine_param": {
+    "bolt_shell_ejecting_time": 0.17,
+    "intro_shell_ejecting_time": 0.4
+  },
+  "muzzle_flash": {
+      "texture": "tacz:flash/common_muzzle_flash",
+      "scale": 2.0
+    },
+   
+  "sounds": {
+    "shoot": "zeta:sg8/shoot",
+    "shoot_3p": "zeta:sg8/shoot3p",
+    "draw": "tacz:m4a1/m4a1_draw",
+    "put_away": "tacz:m4a1/m4a1_put_away",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_02"
+   
+    },
+    "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "offhand_show": {
+    "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-5, 13, 2],
+    "rotate": [-90, 120, -90],
+    "scale": [0.65, 0.65, 0.65]
+    }
+  }
+}

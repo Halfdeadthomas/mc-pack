@@ -1,0 +1,6 @@
+{
+    "name": "zeta.ammo.railgun_ammo.name",
+    "display": "zeta:railgun_ammo_display",
+    "sort": 2010,
+    "stack_size": 20
+  }

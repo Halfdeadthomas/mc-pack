@@ -1,0 +1,11 @@
+{"type":"create:compacting",
+"ingredients":[{"tag":"forge:plates/copper"},
+{"tag":"forge:plates/copper"},
+{"tag":"forge:plates/copper"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:gunpowder"},
+{"tag":"forge:gunpowder"},
+{"tag":"forge:gunpowder"}
+],
+"results":[{"item":"tacz:ammo","count":1,"nbt":{"AmmoId":"zeta:sg225sp_ammo"}}]}

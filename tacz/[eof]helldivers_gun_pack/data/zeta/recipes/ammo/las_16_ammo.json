@@ -1,0 +1,34 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 36
+    },
+     {
+      "item": {
+        "tag": "forge:rods/blaze"
+      },
+      "count": 6
+    },
+        {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 72
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "zeta:las_16_ammo",
+    "count": 6
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:nuggets/iron"
+      },
+      "count": 36
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "zeta:sg225sp_ammo",
+    "count": 4
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

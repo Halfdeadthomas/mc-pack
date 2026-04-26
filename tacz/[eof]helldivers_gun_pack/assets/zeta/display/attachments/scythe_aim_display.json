@@ -1,0 +1,19 @@
+{
+  "slot": "zeta:attachment/slot/scythe_aim",
+  "model": "zeta:attachment/scythe_aim_geo",
+  "texture": "zeta:attachment/uv/scythe_aim",
+  "zoom": [
+    1.25,
+    2
+  ],
+  "scope": true,
+  "sight": false,
+  "views_fov": [
+    60.0,
+    40.0
+  ],
+  "sounds": {
+    "install": "tacz:attachments/scope_general_d",
+    "uninstall": "tacz:attachments/scope_general_d"
+  }
+}

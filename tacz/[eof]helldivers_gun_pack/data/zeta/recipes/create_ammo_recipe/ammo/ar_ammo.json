@@ -1,0 +1,7 @@
+{"type":"create:compacting",
+"heatRequirement": "heated",
+"ingredients":[{"tag":"forge:plates/copper"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:ingots/iron"},
+{"tag":"forge:gunpowder"}],
+"results":[{"item":"tacz:ammo","count":2,"nbt":{"AmmoId":"zeta:ar_ammo"}}]}

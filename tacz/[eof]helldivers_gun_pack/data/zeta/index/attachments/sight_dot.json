@@ -1,0 +1,7 @@
+{
+    "name": "zeta.attachment.sight_dot",
+    "display": "zeta:sight_dot_display",
+    "data": "zeta:sight_dot_data",
+    "sort": 2003,
+    "type": "scope"
+  }
