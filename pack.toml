@@ -1,10 +1,12 @@
-name = "Create'a Colony 2.0"
+name = "The Modpack"
+author = "Thomas"
+version = "1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "16a43a574afb541e6d3427715617c30fd719b5de017e569d0da4db38bc0a574b"
+hash = "129983de9a538deee618fbd0d596758af45df237e4aa99fa2061dc3142527b7d"
 
 [versions]
 forge = "47.4.18"
