@@ -1,0 +1,13 @@
+name = "Valkyrien Warium"
+filename = "WariumVS 1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4bd88b3a0f9c73c38be52a2bc886958d882bf79d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7658711
+project-id = 1286740

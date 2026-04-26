@@ -1,0 +1,11 @@
+name = "Create'a Colony 2.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b3e25d7ca1f25dcc8913b48b641051628e951a2d7ea601d4c2d37865a67d0fee"
+
+[versions]
+forge = "47.4.18"
+minecraft = "1.20.1"

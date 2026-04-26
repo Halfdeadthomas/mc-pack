@@ -1,0 +1,13 @@
+name = "Warium"
+filename = "Warium 1.2.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "528d81630a23fb4004e3abdd99b16bd225cd1e92"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7629932
+project-id = 1123901

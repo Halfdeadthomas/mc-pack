@@ -1,0 +1,13 @@
+name = "Warium Ponder & JEI"
+filename = "warium_ponder-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f378470830c514094abb7359200554dfc6e2a58d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6988272
+project-id = 1286361

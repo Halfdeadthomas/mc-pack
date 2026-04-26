@@ -1,0 +1,13 @@
+name = "Middgard"
+filename = "midgard-1.0-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c07df6b0579175177fbb7f08cffeee6245b4a93d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7906891
+project-id = 1497043

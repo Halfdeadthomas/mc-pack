@@ -1,0 +1,13 @@
+name = "Create: Steel armor blocks"
+filename = "s_a_b-1.4.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ee41d57650ca5f5f5d913470f82cd494721a8a02"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6838297
+project-id = 907369
